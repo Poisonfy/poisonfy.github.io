@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background-image: linear-gradient(white,white);
+  background-image: linear-gradient(rgb(10, 57, 228),rgb(3, 231, 247));
   background-attachment: fixed;
   height: 2900px;
 }
@@ -47,15 +47,18 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: right;
 }
 
 .nav-items li {
   display: inline-block;
   color: white;
+  justify-content: right;
 }
 
 .nav-items li a {
   display: block;
   padding: 1rem;
   color: white;
+  justify-content: right;
 }
