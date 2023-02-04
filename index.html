@@ -14,15 +14,46 @@
   <body>
     <nav id="nav1">
       <ul class="nav-items" id="nav">
-        <li><a id='header1' style='color: white' href="https://skparab1.github.io/">Home</a></li>
-        <li><a id='header2' style='color: white' href="https://skparab1.github.io/about">About me</a></li>
-        <li><a id='header3' style='color: white' href="https://skparab1.github.io/#projects">Discord Moderation</a></li>
-        <li><a id='header1' style='color: white' href="https://skparab1.github.io/">Socials</a></li>
-        <li><a id='header2' style='color: white' href="https://skparab1.github.io/about">lol</a></li>
+        <li><a id='header1' style='color: white' onclick="clearall(); appear('home');">Home</a></li>
+        <li><a id='header2' style='color: white' onclick="clearall(); appear('aboutme');">About me</a></li>
+        <li><a id='header3' style='color: white' onclick="clearall(); appear('discordmod');">Discord Moderation</a></li>
+        <li><a id='header1' style='color: white' onclick="clearall(); appear('socials');">Socials</a></li>
+        <li><a id='header2' style='color: white' onclick="clearall(); appear('lol');">lol</a></li>
       </ul> 
     </nav>
-    <div class="fullwidth">
+
+    <div class='visible' id="home">
+      <div class="fullwidth">
         <h1 class='nicegrad' id='head' style="font-size: 50px;">Poisonfy's Portfolio</h1>
+      </div>
+
+      <div class="personcircle">
+        <img src="pati.png" alt="image of poisonfy" width="100%">
+      </div>
+    </div>
+
+    <div class='invisible' id="aboutme">
+      <div class="fullwidth">
+        <h1 class='nicegrad' id='head' style="font-size: 50px;">About Me</h1>
+      </div>
+    </div>
+
+    <div class='invisible' id="discordmod">
+      <div class="fullwidth">
+        <h1 class='nicegrad' id='head' style="font-size: 50px;">Discord Moderation</h1>
+      </div>
+    </div>
+
+    <div class='invisible' id="socials">
+      <div class="fullwidth">
+        <h1 class='nicegrad' id='head' style="font-size: 50px;">Socials</h1>
+      </div>
+    </div>
+
+    <div class='invisible' id="lol">
+      <div class="fullwidth">
+        <h1 class='nicegrad' id='head' style="font-size: 50px;">lol</h1>
+      </div>
     </div>
 
     <script src="index.js"></script>

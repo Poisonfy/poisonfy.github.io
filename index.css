@@ -35,8 +35,13 @@ h3 {
 
 a {
   color: white;
-  text-decoration: none;
+  transition: text-decoration 0.2s;
 }
+
+a:hover{
+  text-decoration: 2px black underline;
+}
+
 nav {
   position: sticky;
 }
@@ -59,4 +64,24 @@ nav {
   padding: 1rem;
   color: white;
   justify-content: right;
+}
+
+
+.personcircle{
+  width: 20%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 10px solid rgb(7, 180, 180);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 40%;
+}
+
+.visible {
+  transition: display 0.2s;
+}
+
+.invisible {
+  display: none;
+  transition: display 0.2s;
 }
