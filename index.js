@@ -2,9 +2,9 @@
 function clearall(){
     document.getElementById('home').style.display = 'none';
     document.getElementById('aboutme').style.display = 'none';
-    document.getElementById('discordmod').style.display = 'none';
-    document.getElementById('socials').style.display = 'none';
-    document.getElementById('lol').style.display = 'none';
+    document.getElementById('discord').style.display = 'none';
+    document.getElementById('minecraft').style.display = 'none';
+    document.getElementById('dontclick').style.display = 'none';
 }
 
 function appear(id){
