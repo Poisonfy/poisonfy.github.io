@@ -4,6 +4,7 @@ function clearall(){
     document.getElementById('aboutme').style.display = 'none';
     document.getElementById('discord').style.display = 'none';
     document.getElementById('minecraft').style.display = 'none';
+    document.getElementById('projects').style.display = 'none';
     document.getElementById('dontclick').style.display = 'none';
 }
 
